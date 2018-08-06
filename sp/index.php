@@ -151,7 +151,12 @@ $x = 0; ?>
 	</aside>
 
 	<section class="link">
-		<h1><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/tenpo/t_tit_tenpo.gif" width="690" height="39" alt="店舗紹介" class="img-responsive"></h1>
+		<h1><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/t_tit_link.png" width="690" height="39" alt="リンク" class="img-responsive"></h1>
+		<ul>
+			<li><a href="/blog"><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_staffblog.png" width="690" height="39" alt="staffblog" class="img-responsive"></a></li>
+			<li><a href="https://www.instagram.com/sunpro_reform/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_insta_reform.png" width="690" height="39" alt="reform" class="img-responsive"></a></li>
+			<li><a href="https://www.instagram.com/sunpro_funtolive/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_insta_funtolive.png" width="690" height="39" alt="staffblog" class="img-responsive"></a></li>
+		</ul>
 	</section>
 
 	<?php tel_banner(); ?>
