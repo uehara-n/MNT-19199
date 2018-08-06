@@ -150,12 +150,12 @@ $x = 0; ?>
 		</div>
 	</aside>
 
-	<section class="link">
+	<section class="top_link container-fluid">
 		<h1><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/t_tit_link.png" width="690" height="39" alt="リンク" class="img-responsive"></h1>
-		<ul>
-			<li><a href="/blog"><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_staffblog.png" width="690" height="39" alt="staffblog" class="img-responsive"></a></li>
-			<li><a href="https://www.instagram.com/sunpro_reform/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_insta_reform.png" width="690" height="39" alt="reform" class="img-responsive"></a></li>
-			<li><a href="https://www.instagram.com/sunpro_funtolive/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_insta_funtolive.png" width="690" height="39" alt="staffblog" class="img-responsive"></a></li>
+		<ul class="common_tel">
+			<li><a href="/blog"><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_blogstaff.png" width="690" height="39" alt="staffblog" class="img-responsive"></a></li>
+			<li><a href="https://www.instagram.com/sunpro_reform/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_insta_reform.jpg" width="690" height="39" alt="reform" class="img-responsive"></a></li>
+			<li><a href="https://www.instagram.com/sunpro_funtolive/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/page_image/top/side_insta_funtolive.jpg" width="690" height="39" alt="staffblog" class="img-responsive"></a></li>
 		</ul>
 	</section>
 

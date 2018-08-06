@@ -1,0 +1,348 @@
+/*メインビジュアルカルーセル*/
+#carousel1 .carousel-indicators .active {
+	background-color: #7fbe26;
+	border: none;
+}
+#carousel1 .carousel-indicators li {
+	border: none;
+	background-color: #453e3f;
+}
+#carousel1 .carousel-indicators {
+	/* [disabled]top: 0px; */
+	bottom: -18px;
+}
+#carousel1 .right.carousel-control img {
+	top: 50%;
+	position: absolute;
+	right: 37px;
+}
+#carousel1 .left.carousel-control img {
+	top: 50%;
+	position: absolute;
+}
+#carousel1 .right.carousel-control {
+	text-align: left;
+}
+#carousel1 {
+	margin-bottom: 30px;
+}
+#top_nav .row .col-xs-6.left {
+	padding-right: 5px;
+}
+#top_nav .row .col-xs-6.right {
+	padding-left: 5px;
+}
+
+
+
+
+/*トップ　会社概要、施工事例ボタン*/
+#wrap #top_nav {
+	margin: 10px auto 20px auto;
+}
+#wrap #top_nav .seko {
+	border-radius: 5px;
+	width: 45%;
+	height: 42px;
+	display: block;
+	padding-top: 12px;
+	padding-right: 0;
+	padding-left: 10px;
+	padding-bottom: 0;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.2;
+	float: left;
+	background-color: #4f4e50;
+	/* background-image: -moz-linear-gradient( 90deg, rgb(34,24,7) 0%, rgb(68,60,45) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(34,24,7) 0%, rgb(68,60,45) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(34,24,7) 0%, rgb(68,60,45) 100%); */
+}
+#top_nav .seko .img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-left: 7px;
+}
+#wrap #top_nav .company {
+	border-radius: 5px;
+	width: 45%;
+	height: 38px;
+	display: block;
+	padding-top: 16px;
+	padding-right: 0;
+	padding-left: 10px;
+	padding-bottom: 0;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.2;
+	float: right;
+	text-align: left;
+	background-color: #4f4e50;
+	/*background-image: -moz-linear-gradient( 90deg, rgb(34,24,7) 0%, rgb(68,60,45) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(34,24,7) 0%, rgb(68,60,45) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(34,24,7) 0%, rgb(68,60,45) 100%); */
+}
+/*ロールオーバー用*/
+
+#wrap #top_nav a.hover {
+	background-image: -moz-linear-gradient( 90deg, rgb(68,60,45) 0%, rgb(34,24,7) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(68,60,45) 0%, rgb(34,24,7) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(68,60,45) 0%, rgb(34,24,7) 100%);
+}
+#top_nav .company .img {
+	float: left;
+	margin-top: -5px;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-bottom: 0;
+}
+/*トップ　更新履歴*/
+#wrap #top_info {
+}
+#top_info h2{
+	margin: 10px 0;
+	}
+
+#wrap #top_info h3 {
+	padding: 15px 0 15px 0;
+	font-weight: normal;
+	font-size: 12px;
+}
+#wrap #top_info ul {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	text-align: left;
+	color: #525252;
+	/* [disabled]margin-bottom: 20px; */
+}
+#top_info ul li {
+	padding: 0 0 5px 0;
+	font-size: 10px;
+}
+#top_info ul li .text{
+	display: block;
+    width: 96%;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+#top_info ul li a {
+	color:#453e3f;
+	display: flex;
+    align-items: flex-start;
+}
+/*トップ　リフォームメニュー
+#wrap #top_reform {
+	margin-bottom: 25px;
+}
+#wrap #top_reform h3 {
+	color: #4d0c0c;
+	padding: 15px 0 15px 0;
+	width: 95%;
+	font-weight: normal;
+	margin: 0 auto 10px auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240, 236, 226);
+	background-color: rgb(243, 238, 225);
+	font-size: 12px;
+}
+*/
+.t_r_bg {
+        background:url(https://www.home-arrange.jp/wp-content/themes/sp/images/body/reform_sp_bg.jpg) no-repeat;
+        width:306px;
+        height:291px;
+        margin:10px;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+}
+#t_r_bg_wrapper {
+	width: 306px;
+	margin: 0 auto;/*ブラウザの中央に配置*/
+	padding: 80px 0 0 0;
+}
+#t_r_bg_wrapper ul {
+	width: 312px;/*（liの幅+margin-rightの値）×列数*/
+	overflow: hidden;/*wrapperからはみ出る部分を非表示にする*/
+	list-style: none;
+	padding: 0;
+}
+#t_r_bg_wrapper li {
+	width: 142px;/*内容領域の幅。下の左右のpaddingを合わせてボックスが200pxになります。*/
+	padding: 5px;/*上下左右に10pxの内余白*/
+	float: left;/*横並びにしています*/
+	margin-right: 2px;/*各ボックスの右側に20pxの外余白*/
+}
+
+/*タップでお電話がすぐにできます！*/
+.common_tel {
+}
+.common_tel h1{
+	margin:0;
+}
+.common_tel li{
+	margin-bottom:10px;
+}
+
+/*大型施工事例*/
+#top_ogata {
+	padding-top: 0px;
+}
+#top_ogata h2{
+	margin: 10px 0;
+	}
+
+#top_ogata ul li {
+	margin-bottom:10px;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+#top_ogata li:nth-child(even){
+	padding-left:3px;
+}
+#top_ogata li:nth-child(odd){
+	padding-right:3px;
+	clear:left;
+}
+
+#top_ogata ul li a{
+	display:block;
+	border:solid 2px #ccc;
+	padding:8px;
+	color:#000;
+	text-align:left;
+}
+#top_ogata ul li a .pic {
+	position:relative;
+	display:block;
+	margin-bottom:5px;
+}
+#top_ogata ul li a .pic .new {
+	position:absolute;
+	top:0;
+	left:0;
+ width: 50px;
+}
+
+#top_ogata .more {
+  border-radius: 5px;
+  background: #453e3f;
+  width: 100%;
+  padding:10px;
+  position:relative;
+  margin-bottom:10px;
+  color:#fff;
+  display:block;
+  font-size:12px;
+}
+#top_ogata .more:after {
+	content: "\f105";
+	position:absolute;
+	font-family: FontAwesome;
+	right:5%;
+}
+#top_seko h2,#top_seko h3{
+	margin: 10px 0;
+	}
+
+
+#top_seko .more {
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(214,57,116) 0%, rgb(225,95,144) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(214,57,116) 0%, rgb(225,95,144) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(214,57,116) 0%, rgb(225,95,144) 100%);
+  width: 100%;
+  padding:10px;
+  position:relative;
+  margin-bottom:10px;
+  color:#fff;
+  display:block;
+  font-size:12px;
+}
+
+/*トップ　地図*/
+#top_access {
+	margin: 0 0 15px;
+	padding-top: 0px;
+}
+#top_access h1 {
+	margin: 10px 0;
+}
+#wrap #top_access h3 {
+	color: #4d0c0c;
+	font-weight: normal;
+	margin-bottom: 15px;
+	font-size: 12px;
+	padding-top:0px;
+	margin-top:0px;
+
+}
+#wrap #top_access h4 {
+	text-align: left;
+	padding-left: 5px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width:95%;
+	font-size: 14px;
+}
+
+#wrap #top_access .box {
+	margin: 0 auto 5px;
+}
+#wrap #top_access .box a{
+}
+#top_access .box img {
+	/* [disabled]margin-right: 10px; */
+	clear: right;
+	/* [disabled]position: absolute; */
+	left: 0px;
+}
+#top_access .box .add {
+	text-align: left;
+	font-size: 10px;
+	line-height: 1.3;
+	color: #515151;
+	width: 50%;
+	float: right;
+	clear: left;
+}
+#wrap #top_access .map {
+	width: 95%;
+	max-width: 600px;
+	height: auto;
+	margin-bottom: 15px;
+}
+#wrap #top_access .open_map {
+	color: #fff;
+	display: block;
+	border-radius: 5px;
+	background-color: #e94c95;
+	width: 95%;
+	margin-top: 15px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	clear: both;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#top_access .box h2 {
+	padding: 5px 0 0 5px;
+	margin: 0px;
+	width: 70%;
+	float: left;
+}
+/*ロールオーバー用*/
+#wrap #top_access .open_map.hover {
+	background-color: #e77aad
+}
