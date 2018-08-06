@@ -1,0 +1,12 @@
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 21469.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 19780.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 19750.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 20407.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 18526.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 18329.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 19395.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 18437.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 18506.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 20851.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 18490.html": Unsupported extension: html
+[2018-08-06 14:57:37] layer "https   www.sunpro reform.jp seko 19452.html": Unsupported extension: html
